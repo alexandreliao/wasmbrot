@@ -7,32 +7,17 @@
       body {
         margin: 0;
       }
-      canvas {
+      #fractal {
         position: absolute;
         display: block;
-        z-index: 0;
-      }
-      #overlay {
-        position: absolute;
         top: 0;
         left: 0;
         z-index: 1;
       }
-      #banner {
-        position: absolute;
-        right: 0;
-        z-index: 2;
-      }
     </style>
   </head>
   <body>
-    <canvas id="overlay"></canvas>
-    <a href="https://github.com/alexandreliao/wasmbrot"
-      ><img
-        id="banner"
-        src="https://github.blog/wp-content/uploads/2008/12/forkme_right_white_ffffff.png"
-        alt="Fork me on GitHub"
-    /></a>
+    <canvas id="fractal"></canvas>
     <script type="module" src="index.js"></script>
   </body>
 </html>
